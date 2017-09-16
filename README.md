@@ -1,18 +1,18 @@
 # vue-ssr-example
 
-> A Vue.js project
+> A Vue.js SSR project
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# Install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
+# Build client and server bundles
 npm run build
+
+# Run the HTTP server at localhost:8090
+node ./server.js
 ```
 
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
